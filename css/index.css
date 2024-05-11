@@ -360,9 +360,71 @@ nav a:hover{
     background-color: rgb(198, 197, 174);
 }
 
+.featured-post-colums{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.column {
+    float: left;
+    width: 49.99999%;
+    padding: 5px;
+    position: relative;
+}
+
+.column .content{
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    /*background: rgb(0, 0, 0); Fallback color */
+    /*background: rgba(0, 0, 0, 0.5);Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.column .content p{
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.column .content a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+@media (max-width: 620px){
+    .column .content p{
+        font-size: 10px;
+    }
+    .column .content a{
+        font-size: 8px;
+        text-decoration: none;
+        color: white;
+    }
+}
+  
+  /* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
 /*PROJECTS SECTION*/
-
-
 .project-section{
     background-size: cover;
     background-position: center;
@@ -376,12 +438,13 @@ nav a:hover{
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 10px;
+    color: rgb(158, 122, 87);
 }
 
 @media (max-width: 1023px){
     .project-section p{
         font-family: 'Volkhov', Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 10px;
+        font-size: 13px;
         text-align: center;
         padding-left: 5px;
         padding-right: 5px;
@@ -412,7 +475,7 @@ nav a:hover{
 }
 
 div.gallery {
-    border: 1px solid white; /*1px solid #ccc*/
+    border: 1px solid #ccc; /*1px solid #ccc*/
     background-color: white; /*rgb(158, 122, 87)*/
 }
   
