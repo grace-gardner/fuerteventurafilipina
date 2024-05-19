@@ -350,6 +350,7 @@ h2{
     width: 100%;
     height: auto;
     background-color: rgb(198, 197, 174);
+    
 }
 .feature-section{
     width: 100%;
@@ -358,6 +359,7 @@ h2{
     justify-content: center;
     align-items: center;
     background-color: rgb(198, 197, 174);
+   
 }
 .feature-section img{ /*section title images*/
     max-width: 230px;
