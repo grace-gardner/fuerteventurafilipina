@@ -155,7 +155,7 @@ nav a:hover{
 .intro-section{
     width: 100%;
     height: 320px;
-    background-color: rgb(198, 197, 174);
+    /*background-color: rgb(198, 197, 174);*/
     
 }
 .intro-image-container {
@@ -186,7 +186,7 @@ nav a:hover{
 }
 
 .hero-image video{
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid #f2f2f2;
     box-shadow: 0 0 15px rgb(158, 122, 87);
     border-radius: 4px;
     padding: 5px;
@@ -314,7 +314,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     height: 35px;
-    background-color: rgb(198, 197, 174);
+    /*background-color: rgb(198, 197, 174);*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -322,7 +322,7 @@ h2{
 .empty-div1 p{
     text-align: center;
     font-size: 18px;
-    color: white;
+    color: rgb(158, 122, 87);
     padding-top: 10px;
 }
 .empty-div1 a{
@@ -340,7 +340,7 @@ h2{
     .empty-div1 p{
         text-align: center;
         font-size: 13px;
-        color: white;
+        color: rgb(158, 122, 87);
     }
 }
 /*line break*/
@@ -489,7 +489,8 @@ div.desc a{
     height: 250px;
     position: relative;
     opacity: 0.9;
-    border: 1px solid black;
+    border: 1px solid rgb(198, 197, 174);
+    box-shadow: 0 0 10px rgb(158 122 87 / 36%);
 }
 /*end of live music section*/
 
