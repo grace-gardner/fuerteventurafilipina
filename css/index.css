@@ -274,8 +274,10 @@ h2{
 .statement-container{
     width: 290px;
     height: auto;
+    /*border: 1px solid rgb(203 170 133);
+    box-shadow: 0 0 5px white;*/
     border: 1px solid rgb(203 170 133);
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
     opacity: 0.9;
     position: relative;
     margin-top: 50px;
@@ -304,7 +306,7 @@ h2{
     background-color: white;
 }
 .statement-container .quote{
-    color: white;
+    color: slategrey;
     font-size: 15px;
 }
 /*end of intro section*/
@@ -350,7 +352,8 @@ h2{
     margin-left: auto;
     margin-right: auto;
     height: 35px;
-    background-color: rgb(198, 197, 174);
+    /*background-color: rgb(198, 197, 174);*/
+    background-color: rgb(241, 237, 231);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -361,7 +364,7 @@ h2{
 .section{
     width: 100%;
     height: auto;
-    background-color: rgb(198, 197, 174);
+    background-color: rgb(241, 237, 231);  /*rgb(198, 197, 174)*/
     
 }
 .feature-section{
@@ -370,7 +373,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(198, 197, 174);
+    /*background-color: rgb(198, 197, 174);*/
    
 }
 .feature-section img{ /*section title images*/
@@ -517,7 +520,9 @@ div.desc a{
 }
 
 .titan img{
-    border: 1px solid #ddd;
+    /*border: 1px solid #ddd;*/
+    border: 1px solid rgb(198, 197, 174);
+    box-shadow: 0 0 5px rgb(198, 197, 174);
     border-radius: 4px;
     padding: 5px;
     max-width: 150px;
@@ -554,16 +559,9 @@ div.desc a{
     justify-content: center;
     align-items: center;
     background-color: rgb(241, 237, 231);
-    position: relative;
-    animation: mymove 5s;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate;
+    position: relative; 
 }
 
-@keyframes mymove {
-    from {left: 0px;}
-    to {left: 300px;}
-}
 
 .about-banner-middle span{
     font-size: 25px;
@@ -571,6 +569,20 @@ div.desc a{
     text-align: center;
     padding-left: 5px;
     padding-right: 5px;
+    color: slategrey;
+    animation: 15s slide-up linear forwards;
+    margin-top: 0%;
+    
+}
+@keyframes slide-up {
+    from {
+        margin-top: 100%;
+        height: 300%;
+    }
+    to {
+        margin-top: 0%;
+        height: 100%;
+    }
 }
 
 
