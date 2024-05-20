@@ -45,7 +45,7 @@ header{
     background-color: white;
 }
 header .logo{
-    color: rgb(158, 122, 87);
+    color: white; /*rgb(158, 122, 87)*/
     opacity: 1;
     float: left;
     padding-left: 40px;
@@ -121,7 +121,7 @@ nav li{
 }
 
 nav a{
-    color: rgb(158, 122, 87);
+    color: white; /*rgb(158, 122, 87)*/
     font-weight: bold;
     text-decoration: none;
     font-size: 1.2rem;
@@ -278,6 +278,7 @@ h2{
     box-shadow: 0 0 5px white;
     opacity: 0.9;
     position: relative;
+    margin-top: 50px;
 }
 .statement-container p{
     font-size: 15px;
@@ -342,6 +343,17 @@ h2{
         font-size: 13px;
         color: rgb(158, 122, 87);
     }
+}
+
+.empty-div3{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    background-color: rgb(198, 197, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*line break*/
 
