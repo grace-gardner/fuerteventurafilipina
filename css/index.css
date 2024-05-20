@@ -547,6 +547,22 @@ div.desc a{
     border: 0px solid slategrey;
     /*box-shadow: 3rem 1rem 3rem rgba(0, 0, 0, 1);*/
 }
+.about-banner-middle{
+    width: 100%;
+    height: 345px; /*545px*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 237, 231);
+    background-image: url(../images/middle_banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: none;
+    background-blend-mode: multiply;
+    border: 0px solid slategrey;
+    /*box-shadow: 3rem 1rem 3rem rgba(0, 0, 0, 1);*/
+}
 .about-banner-bottom{
     width: 100%;
     height: 345px; /*545px*/
