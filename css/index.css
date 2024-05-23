@@ -546,7 +546,7 @@ div.desc a{
     background-image: url(../images/top_banner3.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-attachment: none;
     background-blend-mode: multiply;
     border: 0px solid slategrey;
