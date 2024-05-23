@@ -22,10 +22,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">-->
 
     <!-- Load the stylesheet that will reference the LCP image. -->
-    <link rel="stylesheet" href="/path/to/../css/index.css">
+    <link rel="stylesheet" href="/path/to/css/index.css">
 
     <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
-    <link rel="preload" fetchpriority="high" as="image" href="/path/to/file.webp" type="image/webp">
+    <link rel="preload" fetchpriority="high" as="image" href="/path/to/css" type="image/webp">
     <!--<script type="text/javascript">
         var _iub = _iub || [];
         _iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"enableFadp":true,"enableLgpd":true,"enableUspr":true,"fadpApplies":true,"floatingPreferencesButtonDisplay":"bottom-left","lang":"en-GB","perPurposeConsent":true,"siteId":3637139,"usprApplies":true,"whitelabel":false,"cookiePolicyId":14820060, "banner":{ "acceptButtonCaptionColor":"#FFFFFF","acceptButtonColor":"#0073CE","acceptButtonDisplay":true,"backgroundColor":"#FFFFFF","backgroundOverlay":true,"closeButtonDisplay":false,"customizeButtonCaptionColor":"#4D4D4D","customizeButtonColor":"#DADADA","customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"ownerName":"fuerteventurafilipina.com","rejectButtonCaptionColor":"#FFFFFF","rejectButtonColor":"#0073CE","rejectButtonDisplay":true,"showTitle":false,"showTotalNumberOfProviders":true,"textColor":"#000000" }};
@@ -48,13 +48,13 @@
         justify-content: center;
         align-items: center;
         background-color: rgb(241, 237, 231);
-        background-image: url(images/file.webp);
+        /*background-image: url(images/file.webp);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: none;
         background-blend-mode: multiply;
-        border: 0px solid slategrey;
+        border: 0px solid slategrey;*/
     }
 
 
@@ -109,7 +109,9 @@
             </div>
             <div class="empty-div1"></div>  <!--SECTION BREAKER-->
             <div>
-                <div class="about-banner-top"></div> 
+                <div class="about-banner-top">
+                    <img src="images/file.webp" alt="" width="620px" height="345">
+                </div> 
             </div>
 
             <div>
