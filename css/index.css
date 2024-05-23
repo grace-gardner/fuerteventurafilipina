@@ -543,7 +543,7 @@ div.desc a{
     justify-content: center;
     align-items: center;
     background-color: rgb(241, 237, 231);
-    background-image: url(../images/banner1.jpg);
+    background-image: url(../images/file.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -593,7 +593,7 @@ div.desc a{
     justify-content: center;
     align-items: center;
     background-color: rgb(241, 237, 231);
-    background-image: url(../images/bio_banner_bottom.jpg);
+    background-image: url(../images/bottom_banner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
