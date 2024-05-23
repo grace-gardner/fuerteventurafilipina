@@ -536,9 +536,9 @@ div.desc a{
 
 /*about section*/
 
-.about-banner-top{
+/*.about-banner-top{
     width: 100%;
-    height: 345px; /*545px*/
+    height: 345px; /*545px
     display: flex;
     justify-content: center;
     align-items: center;
@@ -550,8 +550,8 @@ div.desc a{
     background-attachment: none;
     background-blend-mode: multiply;
     border: 0px solid slategrey;
-    /*box-shadow: 3rem 1rem 3rem rgba(0, 0, 0, 1);*/
-}
+    /*box-shadow: 3rem 1rem 3rem rgba(0, 0, 0, 1);
+}*/
 
 
 
