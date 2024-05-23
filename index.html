@@ -20,9 +20,9 @@
     <!--<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">-->
-    
+
     <!-- Load the stylesheet that will reference the LCP image. -->
-    <link rel="stylesheet" href="/path/to/index.css">
+    <link rel="stylesheet" href="/path/to/../css/index.css">
 
     <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
     <link rel="preload" fetchpriority="high" as="image" href="/path/to/file.webp" type="image/webp">
@@ -39,6 +39,24 @@
     @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
     
     @import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+    .about-banner-top{
+        width: 100%;
+        height: 345px; /*545px*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(241, 237, 231);
+        background-image: url(images/file.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: none;
+        background-blend-mode: multiply;
+        border: 0px solid slategrey;
+    }
+
 
 </style>
 
@@ -136,13 +154,14 @@
                         </div>
                     </div>
                 </div>
+                <div class="empty-div3"></div>
             </div>
             <div class="feature-section">
                 <img src="images/featured_recommendations.png" alt="featured recommendations">
             </div>
             <!--FEATURED RECOMMENDATIONS ENDS HERE-->
 
-            <div class="empty-div3"></div>
+            
             <div class="empty-div1"></div>
             <div class="empty-div2"></div>
 
@@ -426,7 +445,7 @@
             <footer>
                 <div class="footer">
                     <hr>
-                    <p>FuerteventuraFilipina &copy;2024 - All Rights Reserved. <br> Made with <i class="fa-regular fa-heart" style="color: red;"></i> by Me!<br>- <br>
+                    <p>FuerteventuraFilipina &copy;2024 - All Rights Reserved. <br> Made with <span style="color: red;">&#9829;</span> by Me!<br>- <br>
                     <a href="disclaimer.html" target="_blank">Disclaimer</a>   |  <a href="tandc.html" target="_blank">Terms & Conditions</a>
                     </p>
                     <!--Cookie Policy-->
