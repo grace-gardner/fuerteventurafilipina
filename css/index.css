@@ -544,7 +544,7 @@ div.desc a{
     justify-content: center;
     align-items: center;
     background-color: rgb(241, 237, 231);
-    background-image: url(../images/file.jpg);
+    background-image: url(../images/file.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -594,7 +594,7 @@ div.desc a{
     justify-content: center;
     align-items: center;
     background-color: rgb(241, 237, 231);
-    background-image: url(../images/file2.jpg);
+    background-image: url(../images/file2.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
