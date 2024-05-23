@@ -601,7 +601,6 @@ div.desc a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: none;
     background-blend-mode: multiply;
     border: 0px solid slategrey;
     /*box-shadow: 3rem 1rem 3rem rgba(0, 0, 0, 1);
