@@ -156,6 +156,10 @@ nav a:hover{
     width: 100%;
     height: 320px;
     /*background-color: rgb(198, 197, 174);*/
+    background-image: url(../images/coast7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 .intro-image-container {
@@ -179,10 +183,7 @@ nav a:hover{
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    background-image: url(../images/coast7.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    
 }
 
 .hero-image video{
